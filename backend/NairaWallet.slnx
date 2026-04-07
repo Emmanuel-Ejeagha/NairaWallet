@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/NairaWallet.Application/">
+    <Project Path="NairaWallet.Application/NairaWallet.Application/NairaWallet.Application.csproj" Id="8c599f25-e742-4ec7-9701-036eead8311c" />
+  </Folder>
+  <Project Path="NairaWallet.Domain/NairaWallet.Domain.csproj" />
+</Solution>
