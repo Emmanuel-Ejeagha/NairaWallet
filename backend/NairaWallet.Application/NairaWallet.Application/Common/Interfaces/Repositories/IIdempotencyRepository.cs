@@ -1,6 +1,6 @@
 ﻿namespace NairaWallet.Application.Common.Interfaces.Repositories;
 
-public interface IIdempotency
+public interface IIdempotencyRepository
 {
     Task<IdempotencyRecord?> GetByKeyAsync(string key, CancellationToken cancellationToken = default);
     void Add(IdempotencyRecord record);
