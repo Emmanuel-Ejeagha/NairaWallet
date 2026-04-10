@@ -7,7 +7,7 @@ public class TransactionDto
     public decimal Amount { get; init; }
     public string Type { get; init; } = string.Empty;
     public string Status { get; init; } = string.Empty;
-    public string Descripotion { get; init; } = string.Empty;
+    public string Description { get; init; } = string.Empty;
     public DateTime CreatedAtUtc { get; init; }
     public string? ReversalTransactionId { get; init; }
     public string? ReversedTransactionId { get; init; }
