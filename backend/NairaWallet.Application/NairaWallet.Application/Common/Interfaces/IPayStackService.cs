@@ -1,6 +1,6 @@
 ﻿namespace NairaWallet.Application.Common.Interfaces;
 
-public interface IPayStackService
+public interface IPaystackService
 {
     Task<PaystackInitializeResponse> InitializeTransactionAsync(string email, decimal amount, string reference, CancellationToken cancellationToken = default);
     Task<PaystackVerifyResponse> VerifyTransactionAsync(string reference, CancellationToken cancellationToken = default);
