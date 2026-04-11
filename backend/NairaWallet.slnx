@@ -2,5 +2,7 @@
   <Folder Name="/NairaWallet.Application/">
     <Project Path="NairaWallet.Application/NairaWallet.Application/NairaWallet.Application.csproj" Id="8c599f25-e742-4ec7-9701-036eead8311c" />
   </Folder>
+  <Project Path="NairaWallet.API/NairaWallet.API.csproj" Id="dac19c66-33e1-47f3-bae6-35f5f23889dd" />
   <Project Path="NairaWallet.Domain/NairaWallet.Domain.csproj" />
+  <Project Path="NairaWallet.Infrastructure/NairaWallet.Infrastructure.csproj" Id="accffbe5-3125-44a0-b600-05fcc55deb98" />
 </Solution>
