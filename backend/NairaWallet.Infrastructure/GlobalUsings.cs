@@ -1,0 +1,16 @@
+﻿global using Microsoft.EntityFrameworkCore;
+global using Microsoft.EntityFrameworkCore.Metadata.Builders;
+global using Microsoft.Extensions.Configuration;
+global using Microsoft.Extensions.DependencyInjection;
+global using Microsoft.Extensions.Logging;
+global using NairaWallet.Application.Common.Interfaces;
+global using NairaWallet.Application.Common.Interfaces.Repositories;
+global using NairaWallet.Domain.Entities;
+global using NairaWallet.Domain.ValueObjects;
+global using NairaWallet.Domain.Enums;
+global using NairaWallet.Infrastructure.Persistence;
+global using NairaWallet.Infrastructure.Persistence.Repositories;
+global using NairaWallet.Infrastructure.Services;
+global using StackExchange.Redis;
+global using System.Text;
+global using System.Text.Json;
